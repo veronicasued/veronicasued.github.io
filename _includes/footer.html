@@ -4,26 +4,6 @@
     <p class="h5 mb-3">{{ site.title | escape }}</p>
 
     <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
-      </div>
-
       <div class="col-sm text-left">
         <p>Endereço: </p>
         <p>R. Goiás, 960 São Joaquim da Barra - SP 14600-000</p>
